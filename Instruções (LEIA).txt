@@ -1,0 +1,18 @@
+Arquivos principais:
+empregador.py -> sistema utilizado no computador do empregador, responsável por gerenciar os dados dos funcionários.
+funcionario.py -> sistema para login do funcionário que permite interação com o setor de RH.
+
+
+Arquivos de módulo:
+registro.py -> contém o registro geral de funcionários juntamente com as funções necessárias para manipular o registro de forma correta.
+login.py -> contém a interface de login carregada ao ser chamada no arquivo [funcionario.py].
+profile.py -> contém a interface de perfil do funcionário carregada ao ser solicitada no arquivo [empregador.py]
+
+Arquivo de imagens:
+images -> contém as imagens utilizadas nas interfaces.
+
+
+Os demais arquivos foram importados do PyCharm.
+
+OBS: Foram carregados no sistema 30 funcionários gerados aleatoriamente para fins de teste.
+A senha de qualquer funcionário sera sempre os 4 últimos digitos do seu CPF.
